@@ -127,3 +127,82 @@
 .password{
     margin-bottom: 70px;
 }
+
+.math{
+    background-color: white;
+}
+
+.righthome{
+    background-color: #a9d1e2;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lefthome{
+    background-color: white;
+    border-style: solid;
+    border-color:  #7ab5d0;
+    color: #1b7092;
+    width: 300px;
+}
+.lefthome h2{
+    margin: 20px;
+}
+.lefthome h3{
+    margin: 10px;
+    margin-top: 170px;
+}
+
+.righthome{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.righthome div{
+    margin: 4px;
+}
+
+.monday{
+    background-color: #1b7092;
+}
+
+.mtwtf{
+    background-color:  #1b7092;
+    margin: 4px;
+    color: white;
+    width:170px;
+
+}
+
+.math{
+    color:#1b7092;
+    height: 130px;
+}
+.math p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.homeSchedule{
+    color: white;
+    margin:20px;
+    font-size: 50px;
+   
+}
+
+.schedulenext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entirehome{
+    display: flex;
+    flex-direction: row;
+}
+.white{
+    background-color: white;
+    height: 50px;
+}
