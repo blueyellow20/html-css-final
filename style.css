@@ -224,23 +224,24 @@
     flex-wrap: wrap;
     text-align: center;
 }
-.righthome div{
-    margin: 4px;
-}
+
 
 .monday{
     background-color: #1b7092;
+    margin-left: 10px;
 }
 
 .mtwtf{
     background-color:  #1b7092;
-    margin: 4px;
+    margin: 0px;
     color: white;
     width:170px;
 
 }
 
 .math{
+    margin-bottom: 4px;
+
     color:#1b7092;
     height: 130px;
 }
@@ -268,6 +269,7 @@
 .white{
     background-color: white;
     height: 50px;
+    width: 170px;
 }
 
 .allchamp{
@@ -324,8 +326,10 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 50px;
+    margin-right:0px;
+    width: 950px;
 }
 .allright{
     background-color:  #004cbf;
@@ -333,8 +337,8 @@
 
 .bluebox{
     background-color: #001968;
-    width: 20px;
-    height :40px;
+    width: 40px;
+    height :140px;
 }
 
 .rightleft{
@@ -382,7 +386,20 @@
 }
 
 .bluebox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
+}
+
+.triangle-left {
+ 
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid #ffc83b;
+	border-bottom: 10px solid transparent;
 }
 /*어쩌구 :hover*/
 
