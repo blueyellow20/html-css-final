@@ -32,6 +32,12 @@
     color:  #3284a5;
 }
 
+.titlegrade{
+    color:  black;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
 .s{
     padding: 2px 18px;
     border-radius:50%;
@@ -43,6 +49,11 @@
 
 .sign{
     color:#707070
+}
+
+.signgpa{
+    color: black;
+    margin-right: 50px;
 }
 
 .create{
@@ -122,6 +133,14 @@
     align-items: flex-start;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.endattend{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    
 }
 
 .password{
@@ -206,3 +225,120 @@
     background-color: white;
     height: 50px;
 }
+
+.allchamp{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.champnavi{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #001968;
+    width: 250px;
+    color: white;
+}
+.champnavi h3{
+    margin: 30px;
+}
+.champtop{
+    background-color: #ffc83b; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    height: 80px;
+
+}
+.assignments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.assignments h3{
+    margin-top: 10px;
+}
+.seemore{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    text-decoration: underline;
+
+    
+    
+}
+
+.allrightunder{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+.allright{
+    background-color:  #004cbf;
+}
+
+.bluebox{
+    background-color: #001968;
+    width: 20px;
+    height :40px;
+}
+
+.rightleft{
+    color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+.rightleft .seemore{
+    display:flex;
+    align-items: flex-end;
+
+}
+
+.bp{
+    color: white;
+    background-color: #001968;
+    width: 200px;
+    height: 200px;
+    font-size: 150px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom:20px ;
+    border-radius: 30px 30px 30px 30px;
+
+
+}
+
+.rightright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chamcreate{
+    padding: 4px 15px;
+    border-radius: 100px 100px 100px ;
+    background-color: #001968;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.bluebox{
+    margin-top: 100px;
+}
+/*어쩌구 :hover*/
+
