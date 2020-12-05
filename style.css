@@ -428,10 +428,115 @@
 .colorO{
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color:  #f4b30c;
     border-radius: 30px 30px 30px 30px;
     padding: 8px 10px;
 
 }
+
+.cy{
+    background-color:  #ffdc1d;
+
+}
+.cp{
+    background-color:   #ff6f6f;
+
+}.cg{
+    background-color:  #73e0ce;
+
+}.cr{
+    background-color:  #e83434;
+
+}
+.entiregrade{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+.battery{
+    display: flex;
+    flex-direction: column;
+    
+}
+.battery p{
+    margin-bottom: 35px;
+    font-size: 27px;
+
+}
+.battery h3{
+    font-size: 43px;
+}
+.topB{
+    border-radius: 30px 30px 30px 30px;
+    padding: 11px 80px;
+    width: 25px;
+    border-color: black;
+    border-style:solid;
+    background-color: white;
+}
+
+.makingB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.insideB{
+    border-radius: 30px 30px 30px 30px;
+    padding: 11px 100px;
+    width: 25px;
+    height: 300px;
+    border-color: black;
+    border-style:solid;
+    background-color: white;
+}
+.gradedetail{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+.gradedetail .leftscore{
+  
+
+    text-align: center; 
+}
+
+
+.leftscore{
+    margin-right: 20px;
+
+    border-radius: 30px 30px 30px 30px;
+    padding: 11px 10px;
+    width: 30px;
+    height: 5px;
+    background-color: #f4b30c;
+}
+
+.colorassign{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.two h3{
+ margin-left: 10px;
+}
+
+.righteverything{
+}
 /*어쩌구 :hover*/
 
+.detialcolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 130px;
+}
