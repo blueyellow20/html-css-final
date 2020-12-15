@@ -627,10 +627,15 @@
     justify-content: space-between;
 
     border-radius: 15px 15px 15px 15px;
-    padding: 5px 20px;
-    width: 200px;
+    padding: 5px 10px;
+    width: 240px;
     background-color:  #73e0ce;
     margin: 5px;
+}
+
+.month .changeinsidec{
+    padding: 10px 10px;
+
 }
 
 .changeinsidec h3{
@@ -743,4 +748,52 @@ margin-top: 45px;
     border-radius: 30px 30px 30px 30px;
     padding: 3px 10px;
     background-color:  #ffdc1d;
+}
+
+ .today{
+    font-size: 13px;
+}
+
+.today h3{
+    font-size: 13px;
+}
+
+.today .changeinsidec{
+    width: 170px;
+}
+
+.month .changeinsidec{
+    width: 170px;
+    font-size: 13px;
+
+}
+
+.topicdue{
+    font-size: 20px;
+}
+
+.monthabove{
+    margin-top: 50px;
+}
+
+.stuzzleAssign{
+    font-size: 40px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.percent{
+    margin-top: 20px;
+}
+
+.gray{
+    background-color:  #e5e5e5 ;
+}
+
+.sumorange{
+    background-color:  #f58500;
+}
+
+.sumred{
+    background-color:  #ff6f6f
 }
