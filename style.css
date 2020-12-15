@@ -782,6 +782,11 @@ margin-top: 45px;
     margin-bottom: 20px;
 }
 
+.stuzzlecalandar{
+    font-size: 30px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
 .percent{
     margin-top: 20px;
 }
@@ -796,4 +801,242 @@ margin-top: 45px;
 
 .sumred{
     background-color:  #ff6f6f
+}
+
+.hanger{
+    border-radius: 30px 30px 30px 30px;
+    padding: 37px 3px;
+    width: 30px;
+    margin: 20px;
+    border-style: solid;
+    border-color: black;
+        background-color:  #efe3af;   
+}
+
+.hangerflex{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calendar{
+    border-radius: 30px 30px 20px 20px;
+    padding: 20px 3px;
+    width: 470px;
+    
+    margin-left: 20px;
+    margin-top: -60px;
+    border-style: solid;
+    border-color: black;
+    background-color:  #73e0ce;
+}
+
+.insidecalendar{
+    border-radius: 10px 10px 10px 10px;
+    padding: 7px 3px;
+    background-color: white;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    grid-template-rows: auto auto;
+}
+
+.day{
+    letter-spacing: 4px;
+}
+.october{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.calendar{
+    text-align: center;
+}
+
+.weekm{
+
+    
+}
+.day1{
+    letter-spacing: 0.5px;
+
+}
+
+
+.insidecalendarb{
+
+    font-size: 20px;
+
+
+
+    border-radius: 10px 10px 10px 10px;
+    padding: 7px 3px;
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.colordayyellow{
+    border-radius: 10px 10px 10px 10px;
+    padding: 1px 1px;
+    background-color:  #ffdc1d;
+}
+
+.colordayorange{
+    border-radius: 10px 10px 10px 10px;
+    padding: 1px 1px;
+    background-color: #ff6f6f;
+
+}
+
+.coloryellowred{
+    border-radius: 10px 10px 10px 10px;
+    padding: 1px 1px;
+    background-color:   #f4b30c;
+
+}
+
+.c12{
+    border-radius: 10px 10px 10px 10px;
+    padding: 1px 1px;
+    background-color:  #ffdc1d;
+    margin-right: 3px;
+    letter-spacing: 2px;
+}
+
+.c20{
+    border-radius: 10px 10px 10px 10px;
+    padding: 1px 1px;
+    background-color: #ff6f6f;
+    margin-right: 3px;
+    letter-spacing: 2px;
+
+}
+
+.c30{
+    border-radius: 10px 10px 10px 10px;
+    padding: 1px 1px;
+    background-color:   #f4b30c;
+    margin-right: 3px;
+    letter-spacing: 2px;
+
+}
+
+.colorrow{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.calcard{
+    border-style: solid;
+    margin: 19px;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 30px;
+
+}
+
+.calcard h3{
+    font-size: 30px;
+}
+
+.calendarright{
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px;
+    grid-template-rows: 160px 160px 160px;
+
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.totalcalendar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.redcard{
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 30px;
+    background-color:  #ff6f6f;
+    width: 87.5px;
+    height: 87.5px;
+
+    margin-top: -50px;
+    margin-left: -10px;
+    position: absolute;
+    z-index: -3;
+}
+
+.red2{
+    margin-left: 10px;
+
+}
+
+.yellowcard{
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 30px;
+    background-color:  #ffdc1d;
+    width: 87.5px;
+    height: 87.5px;
+
+    margin-top: -50px;
+    margin-right: -60px;
+    margin-left: 5px;
+    position: absolute;
+    z-index: -3;
+}
+
+.y2{
+    margin-left: 10px;
+    margin-top: 0px;
+
+}
+.greencard{
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 30px;
+
+    background-color:   #73e0ce;
+    width: 87.5px;
+    height: 87.5px;
+    
+    margin-right: -60px;
+    margin-left: 5px;
+    position: absolute;
+    z-index: -3;
+}
+
+.g2{
+    width: 220px;
+    height: 40.5px;
+
+}
+
+.AAAtop{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AAAtop h2{
+    color: white;
+}
+
+.aaaright{
+    display: flex;
+    flex-direction:  row;
 }
