@@ -847,6 +847,25 @@ margin-top: 45px;
     grid-template-columns: auto auto auto auto auto auto auto ;
     grid-template-rows: auto auto;
 }
+.insidecalendary{
+    border-radius: 10px 10px 10px 10px;
+    padding: 7px 3px;
+    background-color: white;
+    width: 190px;
+    margin-left: 40px;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+
+    
+}
+
+.underoct{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    grid-template-rows: auto auto;
+}
 
 .day{
     letter-spacing: 4px;
@@ -895,11 +914,25 @@ margin-top: 45px;
     background-color:  #ffdc1d;
 }
 
+.colordayyellow2{
+
+    border-radius: 10px 10px 10px 10px;
+    padding: 1px 1px;
+    background-color:  #ffdc1d;
+    width: 100px;
+    margin-top: 10px;
+    height: 25px;
+}
+
 .colordayorange{
     border-radius: 10px 10px 10px 10px;
     padding: 1px 1px;
     background-color: #ff6f6f;
 
+}
+
+.stuzzlemonth{
+    margin-top: 30px;
 }
 
 .coloryellowred{
@@ -1188,10 +1221,45 @@ margin-top: 45px;
     margin-top: 120px;
 }
 
+.whathappen ul{
+    margin-top: 20px;
+
+}
 .stuzzleright li{
     margin-left: 25px;
 }
 .stuzzleright h2{
     margin-left: 35px;
 
+}
+
+.stuzzlenotehome{
+    margin-top: 20px;
+}
+
+.stuzzlenotein{
+    border-radius: 10px 10px 10px 10px;
+padding: 7px 3px;
+background-color: white;
+width: 190px;
+margin-left: 40px;
+margin-right: auto;
+border-style: solid;
+border-color: black;
+margin-top: 20px;
+}
+
+
+.stuzzlenotein h2{
+    font-size: 15px;
+    
+}
+
+.redcolorbb{
+    border-radius: 10px 10px 10px 10px;
+    background-color:  #ff6f6f;
+    width: 65px;
+    height: 10px;
+    margin-top: 10px;
+    height: 25px;
 }
