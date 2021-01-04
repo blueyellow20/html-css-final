@@ -1040,3 +1040,158 @@ margin-top: 45px;
     display: flex;
     flex-direction:  row;
 }
+
+.stuzzlelogo{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.stuzzlelogo h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.slogo{
+    width: 40px;
+    height:  50px;
+}
+
+.stuzzlemiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stuzzleannounce{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+
+}
+.stuzzleannounce h1{
+    margin-left: 30px;
+}
+
+.stuzzleannounce img{
+    width: 70px;
+    height: 40px;
+}
+
+.stuco{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+.stuco img{ 
+    width: 100px;
+    height: 50px;
+}
+
+.threecircle{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.osc{
+    background-color: orange;
+    padding: 7px 7px;
+    border-radius: 50% 50% 50% 50% ;
+    margin-left: 30px;
+}
+
+.bsc{
+    background-color: #73e0ce;
+    padding: 7px 7px;
+    margin-left: 30px;
+
+    border-radius: 50% 50% 50% 50% ;
+}
+
+.homefline{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.fone img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.fone h2{
+    margin-left: 20px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 10px;
+    width: 20px;
+  }
+  
+  .arrowright {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .arrowleft {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  .entirestuzzle{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .stuzzleright{
+      width: 300px;
+      height: 650px;
+      background-color:  #73e0ce;
+  }
+
+  .stuzzlebigleft{
+      margin:auto;
+      width: 900px;
+  }
+
+
+  .stuzzlepeople{
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    margin-top: 30px;    
+
+}
+
+.whathappen{
+    margin-top: 120px;
+}
+
+.stuzzleright li{
+    margin-left: 25px;
+}
+.stuzzleright h2{
+    margin-left: 35px;
+
+}
